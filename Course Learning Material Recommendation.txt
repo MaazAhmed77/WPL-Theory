@@ -1,0 +1,7 @@
+Recommended Material &Books:
+W3C Online Resources for html and css
+JavaScript and JQuery: Interactive Front-End Web Development by Jon Ducket
+https://www.asp.net/
+https://dotnet.microsoft.com/
+https://docs.microsoft.com/en-us/
+Pro ASP.NET MVC 5 (Expert's Voice in ASP.Net) 5th ed. Edition by Adam Freeman
