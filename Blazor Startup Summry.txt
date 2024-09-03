@@ -1,0 +1,25 @@
+How It All Connects
+_Host.cshtml:
+
+Acts as the entry point of your Blazor Server app and is served when someone navigates to the root URL (/).
+It specifies that the layout to use is _Layout.cshtml.
+_Layout.cshtml:
+
+Contains the common HTML structure (like headers and footers) used throughout your application.
+It has a placeholder (usually @Body) where the content of _Host.cshtml will be rendered.
+App.razor:
+
+Defines the main layout and routing for your Blazor application.
+Specifies which components to display based on the URL.
+Rendering Process:
+
+When the user accesses the root URL, _Host.cshtml is loaded.
+_Host.cshtml uses _Layout.cshtml for layout.
+Inside _Host.cshtml, the <component> tag renders the App component.
+The App component manages routing and displays the appropriate page/component based on the URL.
+
+Summary
+_Host.cshtml serves as the main entry point for the Blazor Server app, including the App component.
+_Layout.cshtml provides a consistent layout (header, footer) for all pages.
+App.razor handles routing and layout selection for different pages.
+This setup ensures that your Blazor Server app is organized and that users get a consistent layout and fast initial page load.
